@@ -1,0 +1,273 @@
+body{
+     background-color: #ffffff;
+     background-origin: padding-box; 
+     margin: 0%;
+ }
+
+ .top{
+    display: flex;
+    width: auto;
+    height: 90px;
+    background: #162146;
+    display: flex;
+    margin-bottom:10px ;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Sisweek{
+    width: 231px;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+.logo10{
+    width: 150px;
+    margin-left: 30px;
+
+}
+
+.Botoes{
+    color: #FFF;
+    text-align: center;
+    font-family: "Unica One", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    margin-right: 30px;
+}
+
+li{
+    List-style-type: none;
+    margin: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #FFF;
+ }
+
+.inscricaotop{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+.TextoInscri{
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.botaoTop{
+    height: 50px;
+    width: 195px;
+    border-radius: 5px;
+    background: #4484FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.programação{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .titulo{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10px;
+ }
+ 
+ .textPro{
+     color: #000;
+     text-align: center;
+     font-family:"Roboto Condensed", sans-serif;
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 500; 
+ }
+ 
+ .descricao{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: -25px;
+ }
+ 
+ .textDesc{
+     color: #000;
+     text-align: justify;
+     font-family:Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     font-style: italic;
+     font-weight: 500;
+ }
+ .dia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5px;
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #162146;
+    border-radius: 5px;
+   }
+   .dia h1{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Unica One", sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+   }
+   .dia2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5px;
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    background-color: #162146;
+    border-radius: 5px;
+    margin-bottom: 70px;
+   }
+   .dia2 h1{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Unica One", sans-serif;
+    font-style: normal;
+    font-weight: 500; 
+   }
+
+.cards{
+    display: flex;
+    width: auto;
+    height: auto;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+}
+.cardInfo{
+    width: 1108px;
+    height: 141px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.cardP{
+    width: 1108px;
+    height: 141px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 90px;
+
+}
+
+.cardTexto{
+    font-family: "Unica One", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+}
+
+
+.cardPost{
+    display: flex;
+    align-items: center;
+    background-color: #162146;
+    width: 600px;
+    height:150px ;
+    border-radius: 20px;
+}
+.foto{
+    height: 120px;
+    margin-left: 10px;
+}
+.nome{
+
+    font-family:"Roboto Condensed", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    color: #FFF;
+    text-align: justify;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+.descricaoP{
+    margin: 10px;
+    font-family:"Roboto Condensed", sans-serif;
+    font-size: 18px;
+    font-style:normal;
+    color: #FFF;
+    text-align: justify;
+    font-weight: 300; 
+    margin-bottom: 20px;
+    margin-left: 19px;
+ 
+}
+ 
+.rodape{
+    width: 100%;
+    height: 337px;
+    background: #162146;
+    display: flex;
+    justify-content:space-around;
+}
+
+.textoR{
+    margin-top: 50px;
+    display: flex;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+    font-style:normal;
+    font-weight: 500;
+    color:#FFF;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.logoUfal{
+    display: flex;
+    height: 150px;
+    margin-top: 10%;
+    
+}
+.logosApoio{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.logos{
+    height: 90px;
+    margin-top:15px;
+    margin: 20px;
+
+}
